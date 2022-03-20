@@ -1,0 +1,282 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Libre+Baskerville&family=Mochiy+Pop+P+One&family=Poppins:wght@200&display=swap');
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.ul{
+/* position: fixed; */
+top: 0;
+width: 100%;
+display: flex;
+list-style: none;
+background-color:  #7575a3e8;
+padding-top: 2rem;
+padding-bottom: 2rem;
+justify-content: flex-end;
+} 
+.ul li a{
+    display: inline-flexbox;
+    margin-right: 5rem;
+    text-decoration: none;
+    color: white;
+}
+.ul li a:hover{
+    color: rgba(255, 255, 255, 0.363);
+    transition: 0.1s ease-in ;
+}
+
+.logo{
+margin-right: 28rem;
+}
+/* .................................... */
+
+section .container{
+
+height: 35.5rem;
+background-color:white;
+display: flex;
+margin-top: 6rem;
+
+}
+section .container .left{
+    height: 570px;
+    color:  #7575a3;
+    width: 600px;
+}
+section .container .right h1{
+font-weight: 300;
+color:  #7575a3;
+font-size: 4rem;
+text-align: center;
+margin: 7rem 0rem 1rem 0rem;
+}
+section .container .right h3{
+    font-weight: 200;
+    text-align: center;
+    color:  #7575a3;
+    margin: 0rem 0rem 0.5rem 0rem;
+    }
+    section .container .right p{
+        font-weight: 200;
+        letter-spacing: 2px;
+        color:  #7575a3;
+        text-align: center;
+        margin: 0rem 0rem 0.5rem 0rem;
+        }
+section .container .right{
+
+    height: 570px;
+    color: white;
+    width: 800px;
+    background-color: lack;
+}
+.img-1-left{
+    margin: 2rem;
+    align-items: center;
+}
+/* .................................... */
+
+.container2{
+    height: 41.5rem;
+    background-color: #7575a3;
+    color:white;
+    display: flex;
+    
+}
+
+.container2 .css-img{
+    display: flex;
+    margin-right:4rem;
+    margin-top:9rem;
+}
+.container2 .content-2 {
+    text-align: center;
+    margin-right: 3rem;
+    margin-left: 2rem;
+}
+/* .container2 .content-2 h1{
+    margin:1rem;
+    margin-top: 10rem;
+}
+.container2 .content-2 h3{
+    margin-bottom: 0.5rem;
+} */
+
+section .container2 .content-2 h1{
+    font-weight: 300;
+    color:  white;
+    font-size: 4rem;
+    text-align: center;
+    margin: 7rem 0rem 1rem 0rem;
+    }
+    section .container2 .content-2 h3{
+        font-weight: 200;
+        text-align: center;
+        font-size: 2rem;
+        color:  white;
+        margin: 0rem 0rem 0.5rem 0rem;
+        }
+        section .container2 .content-2 p{
+            font-weight: 200;
+            letter-spacing: 2px;
+            color:  white;
+            font-size: 1rem;
+            text-align: center;
+            margin: 0rem 0rem 0.5rem 0rem;
+            }
+            section .container2 .content-2 h5{
+                font-weight: 200;
+                letter-spacing: 2px;
+                color:  white;
+                text-align: center;
+                margin: 0rem 0rem 0.5rem 0rem;
+                }
+
+/* .................................... */
+
+.container3{
+    height: 41.5rem;
+    background-color: white;
+    color:white;
+    display: flex;
+    
+}
+
+.container3 .js-img{
+    display: flex;
+    margin-left: 2rem;
+    margin-right:4rem;
+    margin-top:9rem;
+}
+.container3 .content-3 {
+    text-align: center;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+section .container3 .content-3 h1{
+    font-weight: 300;
+    color:  #7575a3;
+    font-size: 4rem;
+    text-align: center;
+    margin: 5rem 0rem 1rem 0rem;
+    }
+     section .container3 .content-3 h3{
+        font-weight: 200;
+        text-align: center;
+        font-size: 2rem;
+        color:  #7575a3;
+        margin: 0rem 0rem 0.5rem 0rem;
+        }
+
+section .container3 .content-3 p{
+     font-weight: 200;
+     letter-spacing: 2px;
+     color:  #7575a3;
+     font-size: 1rem;
+     text-align: center;
+     margin: 0rem 0rem 0.5rem 0rem;
+}
+    
+section .container3 .content-3 h5{
+    font-weight: 200;
+    letter-spacing: 2px;
+    color:  #7575a3;
+    text-align: center;
+    margin: 0rem 0rem 0.5rem 0rem;
+}
+/* ........................................................... */
+
+section .container4{
+    height: 42rem;
+    background-color: #7575a3;
+}
+
+.container4 .cards{
+    display: flex;
+}
+
+.container4 .cards .card1{
+    height: 30rem;
+    background: white;
+    margin: 2rem;
+    border-radius: 40px;
+    margin-top: 6rem;
+}
+.container4 .cards .card1:hover{
+    background-color: #8585be;
+    transform: translateY(-20px);
+    transition: 0.3s ease-in-out;
+}
+
+.container4 .cards .card1 .icons-card{
+    color: white;
+
+}
+ .card1 .hero-img {
+     margin-left: 5.8rem;
+     margin-top: 2rem;
+    height: 40%;
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.container4 .cards .card1 h1{
+    text-align: center;
+    margin: 1rem;
+}
+
+.container4 .cards .card1 p{
+    text-align: center;
+    margin: 4px;
+}
+.container4 .cards .card1 h4{
+    text-align: center;
+}
+
+.container4 .cards .card1 .icons-card {
+    text-align: center;
+    margin-top: 5rem;
+}
+.container4 .cards .card1 .icons-card .facebook{
+    margin-right: 1rem;
+}
+.container4 .cards .card1 .icons-card .twitter{
+    margin-right: 1rem;
+}
+.container4 .cards .card1 .icons-card .instagram{
+    margin-right: 1rem;
+}
+/* ........................................................... */
+footer .footer-text{
+    margin-left: 25rem;
+    color: wheat;
+    padding-top: 3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    background-color: rgb;
+}
+footer {
+background-color: #252557;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(179, 105, 105);
+}
+footer .icons-card-footer{
+    text-align: center;
+    padding-bottom: 3rem;
+}
